@@ -1,27 +1,23 @@
-// stateless functional components
-// class based components
-// state, life cycle methods
-// React Hooks
-// Classes - Syntactical Sugar For Constructor Functions
-// subclass of Component
-// extends from Component Class
-// inherits functionality
-// Component class is used to transfer from basic E6 class.
+//Preference
+// Functional Vs Class Based Components
+// Performance Benefits
 
 import React, {Component } from 'react';
 import {name, age, person} from './data';
 import Banner from './components/Header/banner';
 
-// const App = () => (
-//   <section>
-//     <Banner />
-//   <p>This is is my content.</p>
-// <p>{name}</p>
-// <p>{age}</p>
-// <p>{person.name}</p>
-//   </section>
-// );
+// Functional Based Component
+const App = () => (
+  <section>
+    <Banner />
+  <p>This is is my content.</p>
+<p>{name}</p>
+<p>{age}</p>
+<p>{person.name}</p>
+  </section>
+);
 
+// Class Based Component
 class App1 extends Component {
     render(){
         return(
