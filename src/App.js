@@ -4,9 +4,11 @@
 
 import React from 'react';
 import {name, age, person} from './data';
+import Banner from './components/Header/banner';
 
 const App = () => (
   <section>
+    <Banner />
   <p>This is is my content.</p>
 <p>{name}</p>
 <p>{age}</p>
@@ -25,4 +27,4 @@ const App = () => (
 // );
 
 
-export default App
+export default App;
